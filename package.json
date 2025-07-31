@@ -3,10 +3,12 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "upload-songs": "node scripts/upload-songs.js"
   },
   "dependencies": {
     "clsx": "^2.1.1",
+    "dotenv": "^17.2.1",
     "mongodb": "^6.5.0",
     "mongoose": "^8.17.0",
     "next": "latest",
