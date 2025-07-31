@@ -14,7 +14,7 @@ export const getServerSideProps: GetServerSideProps<
   ConnectionStatus
 > = async () => {
   try {
-    await client.connect(); // `await client.connect()` will use the default database passed in the MONGODB_URI
+    await client.connect();
     return {
       props: { isConnected: true },
     };
